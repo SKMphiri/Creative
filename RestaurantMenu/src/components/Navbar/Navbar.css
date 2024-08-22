@@ -1,0 +1,35 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo-name{
+    width: 150px;
+    color: #F86902;
+    position: fixed;
+}
+
+.search-box{
+   display: flex;
+   align-items: center;
+   padding: 10px 5px;
+   border-radius: 50px;
+}
+
+.search-box input{
+    padding: 5px;
+    /* background: transparent; */
+    border-radius: 10px;
+    outline: 10;
+    outline-color: orange;
+    color: #fff;
+    border: 1px;
+    max-width: 500px;
+    background-color: #d9d9d9;
+}
+
+.search-box input::placeholder{
+    padding-left: 5px;
+}
