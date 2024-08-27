@@ -3,8 +3,20 @@ import './ExploreMenu.css'
 
 const ExploreMenu = () => {
   return (
-    <div>
-        
+    <div className="row">
+        <button className="categorias-btn selected">
+            ALL
+        </button>
+        <button className="categorias-btn">
+            Meals
+        </button>
+        <button className="categorias-btn">
+            breakfast
+        </button>
+        <button className="categorias-btn">
+            breakfast
+        </button>
+    
     </div>
   )
 }
